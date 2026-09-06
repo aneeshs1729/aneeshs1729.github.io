@@ -43,6 +43,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <ScrollToHash />
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/education" element={<Education />} />
