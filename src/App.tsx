@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router";
+import { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router";
 
 import Navbar from "./components/Navbar";
 
