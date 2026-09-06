@@ -31,12 +31,17 @@ export default function Projects() {
         </section>
 
         <section 
-          id="intellegent-search-agents"
+          id="intelligent-search-agents"
           className="border-b border-gray-200 pb-16"
           >
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">Artificial Intelligence</p>
           <h2 className="mt-2 text-3xl font-semibold text-gray-900">
-            Intelligent Search & Adversarial Game Agents
+              <a
+                href="#intelligent-search-agents"
+                className="hover:underline"
+                >
+                Intelligent Search & Adversarial Game Agents
+              </a>
           </h2>
           <p className="mt-5 max-w-4xl text-lg leading-relaxed text-gray-600">
             Implemented A* and uniform-cost search for Wilson-algorithm mazes using a modified
