@@ -10,6 +10,33 @@ import Fun from "./pages/Fun";
 import Experience from "./pages/Experience";
 import SeminarsPresentations from "./pages/SeminarsPresentations";
 
+function ScrollToHash() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (!location.hash) {
+      return;
+    }
+
+    const id = location.hash.slice(1);
+
+    // Wait until React has rendered the routed page.
+    requestAnimationFrame(() => {
+      const element = document.getElementById(id);
+
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    });
+  }, [location.pathname, location.hash]);
+
+  return null;
+}
+
+
 
 function App() {
   return (
