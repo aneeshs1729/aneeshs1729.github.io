@@ -30,7 +30,10 @@ export default function Projects() {
           </p>
         </section>
 
-        <section className="border-b border-gray-200 pb-16">
+        <section 
+          id="intellegent-search-agents"
+          className="border-b border-gray-200 pb-16"
+          >
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">Artificial Intelligence</p>
           <h2 className="mt-2 text-3xl font-semibold text-gray-900">
             Intelligent Search & Adversarial Game Agents
