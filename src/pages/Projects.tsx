@@ -16,7 +16,10 @@ export default function Projects() {
       </p>
 
       <div className="mt-14 space-y-20">
-        <section className="border-b border-gray-200 pb-16">
+        <section 
+          id="mole"
+          className="border-b border-gray-200 pb-16"
+          >
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">Open Source</p>
           <h2 className="mt-2 text-3xl font-semibold text-gray-900">MOLE — Mimetic Operators Library Enhanced</h2>
           <p className="mt-5 max-w-4xl text-lg leading-relaxed text-gray-600">
