@@ -373,7 +373,9 @@ export default function Projects() {
           </div>
         </section>
 
-        <section className="border-b border-gray-200 pb-16">
+        <section 
+          id="image-processing-algorithms"
+          className="border-b border-gray-200 pb-16 scroll-mt-24">
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">Computer Vision, Image Processing & Applications</p>
 
           <h2 className="mt-2 text-3xl font-semibold text-gray-900">
