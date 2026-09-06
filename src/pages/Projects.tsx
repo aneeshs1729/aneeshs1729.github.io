@@ -269,7 +269,10 @@ export default function Projects() {
           </div>
         </section>
 
-        <section className="border-b border-gray-200 pb-16">
+        <section 
+          id="pcb-thermal-modelling"
+          className="border-b border-gray-200 pb-16 scroll-mt-24"
+          >
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">
             Scientific Computing · UC Berkeley
           </p>
