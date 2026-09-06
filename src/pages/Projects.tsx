@@ -683,7 +683,10 @@ export default function Projects() {
           </div>
         </section>
 
-        <section>
+        <section
+          id="kalman-filter-forecasting"
+          className="scroll-mt-24"
+          >
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">Quantitative Modeling</p>
           <h2 className="mt-2 text-3xl font-semibold text-gray-900">
             Time-Series Forecasting with Kalman Filters
