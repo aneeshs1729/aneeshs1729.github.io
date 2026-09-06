@@ -3,6 +3,7 @@ export default function About() {
     "Scientific Computing",
     "AI & Machine Learning",
     "Numerical Optimization",
+    "Mathematical Modelling for Financial Applications",
     "Computer Vision",
     "Quantitative Modeling",
     "Scientific Software",
