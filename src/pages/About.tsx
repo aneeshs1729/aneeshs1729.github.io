@@ -65,7 +65,7 @@ export default function About() {
           <p className="mt-5 text-lg leading-relaxed text-gray-600">
             I have a solid background in mathematics, alogrithmic optimization and scientific programming.
             My research and projects have focussed on application of mathematics and Computer Science — from numerical methods and scientific simulation to
-          intelligent search algorithms and computer vision.
+          intelligent search algorithms and computer vision. I am particularly interested in modelling and developing solutions for <strong> scientific </strong> and <strong> financial </strong> applications.
           </p> 
 
           <p className="mt-5 text-lg leading-relaxed text-gray-600">
