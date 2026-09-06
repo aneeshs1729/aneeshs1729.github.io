@@ -2,12 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>aneesh-portfolio</title>
+
+    <!-- GitHub Pages SPA fallback:
+         restores the original route after 404.html redirects back to / -->
+    <script>
+      const redirectPath = sessionStorage.getItem("redirectPath");
+
+      if (redirectPath) {
+        sessionStorage.removeItem("redirectPath");
+        window.history.replaceState(null, "", redirectPath);
+      }
+    </script>
+
+    <title>Aneesh Srinivas</title>
   </head>
+
   <body>
     <div id="root"></div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
