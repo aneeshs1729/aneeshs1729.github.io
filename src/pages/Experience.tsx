@@ -72,7 +72,10 @@ export default function Experience() {
         </section>
 
         {/* Emory */}
-        <section>
+        <section
+          id="emory-summer-research"
+          className="scroll-mt-24"
+          >
           <div className="flex flex-col justify-between gap-3 md:flex-row">
             <div>
               <h2 className="text-2xl font-semibold text-gray-900">
