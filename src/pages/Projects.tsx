@@ -32,7 +32,7 @@ export default function Projects() {
 
         <section 
           id="intelligent-search-agents"
-          className="border-b border-gray-200 pb-16"
+          className="border-b border-gray-200 pb-16 scroll-mt-24"
           >
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">Artificial Intelligence</p>
           <h2 className="mt-2 text-3xl font-semibold text-gray-900">
@@ -74,7 +74,9 @@ export default function Projects() {
           </figure>
         </section>
 
-        <section className="border-b border-gray-200 pb-16">
+        <section 
+          id="nbody-surrogate-modeling"
+          className="border-b border-gray-200 pb-16 scroll-mt-24">
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">
             AI for Scientific Computing · Surrogate Modeling
           </p>
@@ -506,7 +508,9 @@ export default function Projects() {
           </div>
         </section>
 
-        <section className="border-b border-gray-200 pb-16">
+        <section 
+          id="monte-carlo-radiative-transfer"
+          className="border-b border-gray-200 pb-16 scroll-mt-24">
           <p className="text-sm font-semibold uppercase tracking-widest text-gray-500">
             Monte Carlo Simulation & Scientific Computing
           </p>
